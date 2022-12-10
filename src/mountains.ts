@@ -23,4 +23,4 @@ function findNameOfTallestMountain(mountains: Mountain[]): string {
 };
 
 console.log(findNameOfTallestMountain(mountains));
-export {Mountain, findNameOfTallestMountain};
+export { Mountain, findNameOfTallestMountain };
