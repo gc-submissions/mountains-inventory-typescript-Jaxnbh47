@@ -1,7 +1,7 @@
 interface Mountain {
   name: string;
   height: number;
-}
+};
 
 let mountains: Mountain[] = [
   { name: "kilaminjaro", height: 19341 },
@@ -20,7 +20,7 @@ function findNameOfTallestMountain(mountains: Mountain[]): string {
     }
   }
   return currentName;
-}
+};
 
 console.log(findNameOfTallestMountain(mountains));
 export {Mountain, findNameOfTallestMountain};
